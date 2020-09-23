@@ -47,5 +47,5 @@
   
   **git push**
 
-  
+  Všetky tieto príkazy sa dajú používať priamo v Git Bash konzole. Ako tieto príkazy realizovať v Intellij Idea nájdete v prezentácii **Working with Git in Intellij** v tomto repoziári.
 </details>

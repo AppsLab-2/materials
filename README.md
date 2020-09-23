@@ -53,3 +53,13 @@
 
   Všetky tieto príkazy sa dajú používať priamo v Git Bash konzole. Ako tieto príkazy realizovať v Intellij Idea nájdete v prezentácii **Working with Git in Intellij** v tomto repoziári.
 </details>
+
+<details>
+  <summary>New to Java</summary>
+
+  ### Konvencie pre písanie Java programov
+  https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+  
+  ### Java tutorials
+  https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html
+</details>

@@ -19,7 +19,7 @@
   
   ### Git checkout
 
-  Príkaz slúži na prepínanie sa medzi jednotlivými vetvami.
+  Príkaz slúži na prepínanie sa medzi jednotlivými vetvami (branch).
   
   **git checkout *[branch name]***
   
@@ -46,6 +46,10 @@
   Update-ne remote repozitár.
   
   **git push**
+  
+  Pri prvom vykonávaní príkazu git push (keď chcem pushnúť vetvu, ktorá ešte nie je v remote repozitári) bude potrebné pustiť git push nasledovne:
+  
+  git push --set-upstream origin *[branch name]*
 
   Všetky tieto príkazy sa dajú používať priamo v Git Bash konzole. Ako tieto príkazy realizovať v Intellij Idea nájdete v prezentácii **Working with Git in Intellij** v tomto repoziári.
 </details>

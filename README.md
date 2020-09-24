@@ -62,4 +62,7 @@
   
   ### Java tutorials
   https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html
+  
+  ### Syntax Java vs C#
+  https://www.slideshare.net/Pednekar19/difference-between-java-and-c
 </details>

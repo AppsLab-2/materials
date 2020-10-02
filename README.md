@@ -35,7 +35,7 @@
   
   Ako písať commit message?
   1. Začni veľkým písmenom
-  2. Napíš čo robia zmeny, ktoré sa chystáš commitnúť imperatívnym spôsobom
+  2. Napíš čo robia zmeny, ktoré sa chystáš commitnúť imperatívnym spôsobom, napr. Pridaj metódu na výpočet niečoho
   3. Na konci vety sa nedáva bodka, výkričník...proste nič
   4. Skús sa zmestiť do 50 znakov
   

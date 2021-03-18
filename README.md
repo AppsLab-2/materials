@@ -66,3 +66,14 @@
   ### Syntax Java vs C#
   https://www.slideshare.net/Pednekar19/difference-between-java-and-c
 </details>
+
+<details>
+  <summary>Na čo si dať pozor pri prepájaní FE s BE </summary>
+  <br>
+  Pri volaní HTTP requestu z FE cez HttpClient je potrebné s BE zjednotiť:<br><br>
+  
+   **Endpoint** - volaný z FE musí existovať aj na BE. Príklad: Ak mám na BE napr. endpoint announcement/all tak FE musí volať presne taký istý endpoint, teda announcement/all.<br><br>
+   **Použitú HTTP metódu** - musí byť rovnaká. Príklad: Ak mám na BE definovaný daný endpoint ako GET tak potom aj z FE musím volať httpClient.get...<br><br>
+   **Očakávaný objekt a objekt, ktorý sa posiela** - je potrebné aby názvy atribútov boli rovnaké. Inak sa to nebude vedieť spárovať. Príklad: Ak BE posiela na FE objekt, ktorý ma atribúty s názvom name, surname a age tak na FE musí byť tiež objekt s atribútmi name, surname a age. Presne rovnaké názvy.<br>Podobne to platí aj opačne, teda keď FE posiela objekt na BE. Toto je napríklad v prípade POST metódy. Príklad: Vo formulári na FE som vyklikal nový inzerát a chcem ho poslať na BE aby sa uložil do DB.<br><br>
+   **Názvy parametrov** - ak potrebujete poslať nejaké parametre tak parametre s rovnakým názvom musia byť nadefinované aj na BE pri príslušnom endpointe
+</details>
